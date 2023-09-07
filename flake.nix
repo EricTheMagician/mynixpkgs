@@ -20,6 +20,7 @@
       in {
         formatter = pkgs.alejandra;
         packages = {
+          vim-cmake = import ./vim/cmake.nix {inherit pkgs;};
           vim-codeium = import ./vim/codeium.nix {inherit pkgs;};
           vim-perforce = import ./vim/perforce.nix {inherit pkgs;};
           vscode-pylance = import ./vscode-extensions/pylance.nix {
