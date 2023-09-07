@@ -4,7 +4,7 @@ pkgs.vimUtils.buildVimPluginFrom2Nix {
   src = pkgs.fetchFromGitHub {
     owner = "cdelledonne";
     repo = "vim-cmake";
-    rev = "0.12.1";
-    hash = "";
+    rev = "v0.12.1";
+    hash = "sha256-jhwIAfSonIdKhFFZypCUfAI0S+nQvPbHF6/sXyXAuAM=";
   };
 }
